@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body
+    class="bg-[url('https://img.freepik.com/premium-photo/lake-with-mountain-mountain-background_1034561-2257.jpg?w=740')] bg-center bg-cover bg-no-repeat h-[100vh] w-screen relative flex items-center">
+    <div class="w-screen h-[100vh] bg-black opacity-50 absolute top-0 left-0"></div>
+    <div class="relative text-white text-center flex flex-col gap-4 mx-auto  border-2 rounded-md px-4 w-[30%] py-6 shadow-xl shadow-green-500">
+        <h1 class="text-2xl uppercase font-semibold">Sign Up</h1>
+        <div class="flex flex-col gap-2 w-[70%] mx-auto">
+            <label class="text-xl font-semibold text-left" for="">Username</label>
+            <input class="outline-none px-4 py-2 rounded-full bg-transparent border-2 text-white" type="text" placeholder="Enter your Username">
+        </div>
+        <div class="flex flex-col gap-2 w-[70%] mx-auto">
+            <label class="text-xl font-semibold text-left" for="">Password</label>
+            <input class="outline-none px-4 py-2 rounded-full bg-transparent border-2 text-white" type="password" placeholder="Enter your Username">
+        </div>
+        <div class="text-md flex gap-4 mx-auto items-center">
+            <input type="checkbox" name="Remeber me " id="">
+            <label for="">Remeber me</label>
+            <a class="hover:underline" href="#">Forgot Password</a>
+        </div>
+        <a href="../index.html">
+            <button class="bg-green-700 px-4 py-2 rounded-md text-xl w-[200px] mx-auto hover:bg-transparent hover:border-green-600 border-2 border-green-500">Sign Up</button>
+        </a>
+    </div>
+</body>
